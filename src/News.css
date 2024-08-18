@@ -1,0 +1,31 @@
+.readmore{
+    color: rgb(255, 255, 255);
+    background-color: #1e1b278b;
+}
+.readmore:hover{
+    background-color: #1e1b2744;
+    font-weight: 700;
+}
+.newscard{
+    background-color: rgb(255, 255, 204);
+    height: 600px !important;
+}
+.trending{
+    color: #00c3ff;
+}
+ .newsbg{
+    padding-top: 50px;
+    background-color: beige;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+.newsbg2{
+    padding-top: 50px;
+    background-color: beige;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    height: 100vh;
+}
