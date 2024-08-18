@@ -1,9 +1,9 @@
 .readmore{
     color: rgb(255, 255, 255);
-    background-color: #1e1b278b;
+    background-color: #1e1b278b !important;
 }
 .readmore:hover{
-    background-color: #1e1b2744;
+    background-color: #1e1b2744 !important;
     font-weight: 700;
 }
 .newscard{

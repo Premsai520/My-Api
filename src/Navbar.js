@@ -36,7 +36,7 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className="nav-item me-5 fs-5">
-                <Link className="nav-link active" id="about" to="/temperature">
+                <Link className="nav-link active" id="about" to="/about">
                   About Us
                 </Link>
               </li>

@@ -70,7 +70,7 @@ export default function Jobs() {
       {error && <p style={{ color: 'red' }}>{error}</p>}  
 
     <div className='table-responsive'>
-      <table className="table table-striped" style={{ width: '100%' }}>
+      <table className="table table-dark table-striped table-hover table-bordered" style={{ width: '100%' }}>
         <thead>
           <tr>
             {result[0] && (
@@ -90,7 +90,7 @@ export default function Jobs() {
               <td>{row[0]}</td>
               <td>{row[2]}</td>
               <td>{row[3]}</td>
-              <td><a href={row[6]} >Click here</a></td>
+              <td><a className='link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href={row[6]} >Click here</a></td>
               <td>{row[12]}-{row[13]}</td>
             </tr>
           ))}

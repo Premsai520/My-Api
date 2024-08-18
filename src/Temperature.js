@@ -82,7 +82,7 @@ function App() {
     <>
     <div className="temp" style={{marginTop:"-20px",height:"100vh"}}>
       {/* Main Part */}
-      <h2 className="heading mt-3 pt-5 mb-3">Find a forecast</h2>
+      <h2 className="heading text-dark mt-3 pt-5 mb-3">Find a forecast</h2>
       <form onSubmit={submitHandler}>
         <input
           className="cityinput"

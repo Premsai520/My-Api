@@ -39,7 +39,7 @@ export default function News() {
           throw new Error("No articles found.");
         }
         const validArticles = data.articles.filter(
-          (article) => article.title != "[Removed]" && article.description && article.url != null &&  article.urlToImage
+          (article) => article.title !== "[Removed]" && article.description && article.url != null &&  article.urlToImage
         );
         validArticles.forEach((article) => {
           console.log("Title: ", article.title);
@@ -64,7 +64,7 @@ export default function News() {
           value={key}
           onChange={changeHandler}
         />
-        <input className="submit mb-5 mt-2" type="submit" />
+        <input className="submit1 mb-5 mt-2" type="submit" />
       </form>
 
       {error && <center><p style={{ color: "red" }}>{error}</p></center>}

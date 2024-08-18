@@ -1,0 +1,56 @@
+
+#aboutpic{
+    width: 700px;
+  font-size:30px;
+  color: #fff;
+  background: none;
+  border: none; 
+  position: relative;
+  z-index: 0;
+  transition: .3s;
+  cursor: pointer;
+  content: "";
+  inset: -8px;
+  padding: 10px;
+  background: conic-gradient(
+    #005875 ,
+    #0000 30deg 120deg,
+    #088395 150deg 180deg,
+    #0000 210deg 300deg,
+    #005875 330deg
+    );
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: intersect
+}
+.about-text{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about{
+    background-color:#dbf3fa ;
+    height: 120vh;
+    color: #005875;
+  border: none; 
+  z-index: 0;
+  transition: .3s;
+  cursor: pointer;
+  content: "";
+  inset: -8px;
+  padding: 10px;
+  background: conic-gradient(
+    #F0EDEE ,
+    #dbf3fa 30deg 120deg,
+    #F0EDEE 150deg 180deg,
+    #dbf3fa 210deg 300deg,
+    #F0EDEE 330deg
+    );
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: intersect
+}
+

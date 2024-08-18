@@ -24,7 +24,7 @@ export default function Profile() {
             </div>
             <div className='col-lg-5 col-md-6 col-sm-12 mt-5'>
               <end>
-              <img className='img-fluid' id='profile' src={img} width={350} />
+              <img className='img-fluid' id='profile' alt='user' src={img} width={350} />
               </end>
             </div>
 
