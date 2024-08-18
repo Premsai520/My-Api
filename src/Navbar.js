@@ -44,7 +44,6 @@ export default function Navbar() {
                 <Link
                   className="nav-link active"
                   aria-current="page"
-                  target="_blank"
                   id="project"
                   to="/contact"
                 >
