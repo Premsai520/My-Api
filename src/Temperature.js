@@ -27,7 +27,7 @@ function App() {
     e.preventDefault();
     setError("");
     fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=b5567ebe9b72599c79a1ef5ea996bf8d`
+      `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.REACT_APP_WEATHER_API_KEY}`
     )
       .then((response) => {
         if (!response.ok) {
