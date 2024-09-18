@@ -25,7 +25,7 @@ export default function News() {
     }
 
     fetch(
-      `https://newsapi.org/v2/everything?q=${key}&sortBy=popularity&apiKey=6e0856871d0c4c49ae36a8aae652543e`
+      `https://newsapi.org/v2/everything?q=${key}&sortBy=popularity&apiKey=${process.env.REACT_APP_NEWS_API_KEY}`
     )
       .then((response) => {
         if (!response.ok) {
